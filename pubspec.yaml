@@ -1,0 +1,19 @@
+name: ghanwa_app
+description: تطبيق غنوة - مشغل موسيقى متعدد اللغات.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.27
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.4
+  google_sign_in: ^5.4.2
+  flutter_facebook_auth: ^5.0.0
+
+flutter:
+  uses-material-design: true
